@@ -7,7 +7,7 @@ function R007() {
     <div>
       <h1>Start React 200!</h1>
       <p>HTML 적용하기</p>
-      <R007_LifecycleEx></R007_LifecycleEx>
+      <R007_LifecycleEx prop_value = 'FromApp.js' />
     </div>
   );
 }
