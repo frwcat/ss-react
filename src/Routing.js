@@ -6,6 +6,7 @@ import R004 from "./page/part1/R004";
 import R005 from "./page/part1/R005";
 import R006 from "./page/part1/R006";
 import R007 from "./page/part1/R007";
+import R008 from "./page/part1/R008";
 
 const Routing = () => {
     return(
@@ -17,6 +18,7 @@ const Routing = () => {
                 <Route path="/R005" element={<R005 />}></Route>
                 <Route path="/R006" element={<R006 />}></Route>
                 <Route path="/R007" element={<R007 />}></Route>
+                <Route path="/R008" element={<R008 />}></Route>
 
             </Routes>
         </BrowserRouter>
