@@ -24,7 +24,7 @@ class R008_LifecycleEx extends Component {
     render() {
         console.log('3. render Call');
         return (
-            <h2>[THIS IS componentDidMount FUNCTION]</h2>
+            <h2>[THIS IS shouldComponentUpdate FUNCTION]</h2>
         )
     }
 }
