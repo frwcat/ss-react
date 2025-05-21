@@ -7,6 +7,14 @@ import R005 from "./page/part1/R005";
 import R006 from "./page/part1/R006";
 import R007 from "./page/part1/R007";
 import R008 from "./page/part1/R008";
+import R009 from "./page/part1/R009";
+import R010 from "./page/part1/R010";
+import R011 from "./page/part1/R011";
+import R012 from "./page/part1/R012";
+import R013 from "./page/part1/R013";
+import R014 from "./page/part1/R014";
+import R015 from "./page/part1/R015";
+// import R016 from "./page/part1/R016";
 
 const Routing = () => {
     return(
@@ -19,6 +27,17 @@ const Routing = () => {
                 <Route path="/R006" element={<R006 />}></Route>
                 <Route path="/R007" element={<R007 />}></Route>
                 <Route path="/R008" element={<R008 />}></Route>
+                <Route path="/R009" element={<R009 />}></Route>
+                <Route path="/R010" element={<R010 />}></Route>
+                <Route path="/R011" element={<R011 />}></Route>
+                <Route path="/R012" element={<R012 />}></Route>
+                <Route path="/R013" element={<R013 />}></Route>
+                <Route path="/R014" element={<R014 />}></Route>
+                <Route path="/R015" element={<R015 />}></Route>
+                {/* <Route path="/R016" element={<R016 />}></Route> */}
+                {/* <Route path="/R017" element={<R017 />}></Route> */}
+                {/* <Route path="/R018" element={<R018 />}></Route> */}
+                {/* <Route path="/R019" element={<R019 />}></Route> */}
 
             </Routes>
         </BrowserRouter>
