@@ -22,6 +22,20 @@ import R020 from "./page/part2/R020";
 import R021 from "./page/part2/R021";
 import R022 from "./page/part2/R022";
 import R023 from "./page/part2/R023";
+import R024 from "./page/part2/R024";
+import R025 from "./page/part2/R025";
+import R026 from "./page/part2/R026";
+import R027 from "./page/part2/R027";
+import R028 from "./page/part2/R028";
+import R029 from "./page/part2/R029";
+import R030 from "./page/part2/R030";
+import R031 from "./page/part2/R031";
+import R032 from "./page/part2/R032";
+import R033 from "./page/part2/R033";
+import R034 from "./page/part2/R034";
+import R035 from "./page/part2/R035";
+import R036 from "./page/part2/R036";
+import R037 from "./page/part2/R037";
 
 const Routing = () => {
     return(
@@ -49,6 +63,20 @@ const Routing = () => {
                 <Route path="/R021" element={<R021/>}></Route>
                 <Route path="/R022" element={<R022/>}></Route>
                 <Route path="/R023" element={<R023/>}></Route>
+                <Route path="/R024" element={<R024/>}></Route>
+                <Route path="/R025" element={<R025/>}></Route>
+                <Route path="/R026" element={<R026/>}></Route>
+                <Route path="/R027" element={<R027/>}></Route>
+                <Route path="/R028" element={<R028/>}></Route>
+                <Route path="/R029" element={<R029/>}></Route>
+                <Route path="/R030" element={<R030/>}></Route>
+                <Route path="/R031" element={<R031/>}></Route>
+                <Route path="/R032" element={<R032/>}></Route>
+                <Route path="/R033" element={<R033/>}></Route>
+                <Route path="/R034" element={<R034/>}></Route>
+                <Route path="/R035" element={<R035/>}></Route>
+                <Route path="/R036" element={<R036/>}></Route>
+                <Route path="/R037" element={<R037/>}></Route>
             </Routes>
         </BrowserRouter>
     )
