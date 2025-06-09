@@ -4,7 +4,7 @@ import '../../App.css';
 import 'bootstrap/dist/css/bootstrap.css'
 import Header from '../../component/header/Header';
 import Footer from '../../component/footer/Footer';
-// import '../../css/new.css'
+import '../../css/new.css'
 
 function R091(){
     return (

@@ -1,5 +1,4 @@
 import React, {Component, useEffect, useState} from 'react';
-import cookie from 'react-cookies';
 
 class R91_HeaderFooter extends Component{
 
