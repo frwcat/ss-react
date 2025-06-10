@@ -4,10 +4,10 @@ class R91_HeaderFooter extends Component{
 
     render() {
         return (
-            <>
+            <div>
             <h1>React Header</h1>
             <h1>React Footer</h1>
-            </>
+            </div>
         )
     }
 

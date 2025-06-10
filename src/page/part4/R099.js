@@ -1,20 +1,19 @@
 import React, {Component} from 'react';
-import R91_HeaderFooter from '../../component/part3/R91_HeaderFooter';
-// import '../../App.css';
+import R099_FloatingPopulationList from '../../component/part4/R099_FloatingPopulationList';
 import 'bootstrap/dist/css/bootstrap.css'
 import Header from '../../component/header/Header';
 import Footer from '../../component/footer/Footer';
 import '../../css/new.css'
 
-function R091(){
+function R099(){
     return (
       <div>
         <Header></Header>
         <h1>Start React 200!</h1>
-        <R91_HeaderFooter></R91_HeaderFooter>
+        <R099_FloatingPopulationList></R099_FloatingPopulationList>
         <Footer></Footer>
       </div>
     );
   }
 
-export default R091;
+export default R099;

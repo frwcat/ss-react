@@ -81,6 +81,12 @@ import R085 from "./page/part3/R085";
 import R086 from "./page/part3/R086";
 import R087 from "./page/part3/R087";
 import R091 from "./page/part3/R091";
+import R092 from "./page/part3/R092";
+import R093 from "./page/part3/R093";
+import R094 from "./page/part3/R094";
+import R095 from "./page/part3/R095";
+import R096 from "./page/part4/R096";
+import R099 from "./page/part4/R099";
 
 const Routing = () => {
     return(
@@ -167,6 +173,12 @@ const Routing = () => {
                 <Route path="/R086" element={<R086/>}></Route>
                 <Route path="/R087" element={<R087/>}></Route>
                 <Route path="/R091" element={<R091/>}></Route>
+                <Route path="/R092" element={<R092/>}></Route>
+                <Route path="/R093" element={<R093/>}></Route>
+                <Route path="/R094" element={<R094/>}></Route>
+                <Route path="/R095" element={<R095/>}></Route>
+                <Route path="/R096" element={<R096/>}></Route>
+                <Route path="/R099" element={<R099/>}></Route>
             </Routes>
         </BrowserRouter>
     )

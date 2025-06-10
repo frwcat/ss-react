@@ -1,5 +1,6 @@
 /* @import url(/css/dpl/sce/NotoSansKR-Hestia.css); */
-@import './dpl/sce/NotoSansKR-Hestia.css';
+@import url(https://cdn.jsdelivr.net/gh/theeluwin/NotoSansKR-Hestia@master/stylesheets/NotoSansKR-Hestia.css);
+
 
 /**** Common ************************************************/
 * {max-height:1000000px;margin:0;padding:0;}
