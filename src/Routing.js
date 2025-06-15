@@ -94,6 +94,8 @@ import R103 from "./page/part4/R103";
 import R104 from "./page/part4/R104";
 import R105 from "./page/part4/R105";
 import R109 from "./page/part4/R109";
+import R110 from "./page/part4/R110";
+import R111 from "./page/part4/R111";
 
 const Routing = () => {
     return(
@@ -193,6 +195,8 @@ const Routing = () => {
                 <Route path="/R104" element={<R104/>}></Route>
                 <Route path="/R105" element={<R105/>}></Route>
                 <Route path="/R109" element={<R109/>}></Route>
+                <Route path="/R110" element={<R110/>}></Route>
+                <Route path="/R111" element={<R111/>}></Route>
             </Routes>
         </BrowserRouter>
     )
